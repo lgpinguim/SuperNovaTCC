@@ -36,6 +36,10 @@ public class PlayerShip : MonoBehaviour
 
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("Player Hit");
+    }
     private void ProcessRotation()
     {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor + yThrow;
