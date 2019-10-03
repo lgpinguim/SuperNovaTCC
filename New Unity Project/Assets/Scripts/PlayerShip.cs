@@ -40,6 +40,12 @@ public class PlayerShip : MonoBehaviour
     {
         print("Player Hit");
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Player Trigger");
+    }
+
     private void ProcessRotation()
     {
         float pitchDueToPosition = transform.localPosition.y * positionPitchFactor + yThrow;
