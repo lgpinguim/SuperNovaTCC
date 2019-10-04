@@ -81,6 +81,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -108,23 +111,20 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Editor">
-      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx">
-      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Formats.Fbx.Runtime">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Programas/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -315,6 +315,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -329,9 +332,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityFbxPrefab">
-      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
