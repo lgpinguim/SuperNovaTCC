@@ -1,23 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
+
+    
 {
+    [SerializeField]
+    float levelLoadDelay = 1f;
+
     private void OnTriggerEnter(Collider other)
     {
-        print("Player Trigger");
+        StartDeathSequence();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void StartDeathSequence()
     {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SendMessage("OnPlayerDeath");
     }
 }
