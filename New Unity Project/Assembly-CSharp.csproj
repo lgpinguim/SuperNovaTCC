@@ -64,15 +64,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\Missile.cs" />
-    <Compile Include="Assets\Scripts\PlayerShip.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <None Include="Assets\Menu\Font\About.txt" />
+    <None Include="Assets\FbxExporters\RELEASE_NOTES.txt" />
     <None Include="Assets\Menu\Font\OFL.txt" />
     <None Include="Assets\Menu\Font\Try_BebasNeuePro.txt" />
     <None Include="Assets\epyphany\ReadMe.txt" />
+    <None Include="Assets\FbxExporters\README.txt" />
     <None Include="Assets\Menu\Font\OFL-FAQ.txt" />
+    <None Include="Assets\FbxExporters\LICENSE.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -114,6 +118,15 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Programas/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -300,6 +313,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Programas/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

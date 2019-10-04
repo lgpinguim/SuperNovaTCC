@@ -234,6 +234,15 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Programas/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -419,6 +428,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Programas/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
