@@ -31,7 +31,7 @@
             "exportUnrendered": true
         },
         "convertToPrefabSettingsSerialize": {
-            "exportFormat": 0,
+            "exportFormat": 1,
             "animatedSkinnedMesh": false,
             "mayaCompatibleNaming": true
         }

@@ -787,6 +787,16 @@
       <HintPath>D:/Programas/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Parabox.Stl.csproj">
+      <Project>{03C2C256-31AA-6A4E-0826-5ACDACDF8762}</Project>
+      <Name>Parabox.Stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="Parabox.Stl.Editor.csproj">
+      <Project>{84792544-0A66-140A-D158-257BF7272531}</Project>
+      <Name>Parabox.Stl.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
