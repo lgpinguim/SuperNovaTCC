@@ -1400,6 +1400,7 @@ MonoBehaviour:
   controlSpeed: 20
   xRange: 10
   yRange: 5
+  guns: []
   positionPitchFactor: -5
   positionYawFactor: 2
   controlPitchFactor: -10
@@ -7375,11 +7376,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3149666727232160221}
     m_Modifications:
-    - target: {fileID: 5014475791037619028, guid: f9c35191fb68ee84a94729b4031c7bda,
-        type: 3}
-      propertyPath: m_Name
-      value: Engine_Fire
-      objectReference: {fileID: 0}
     - target: {fileID: 1491884180000622592, guid: f9c35191fb68ee84a94729b4031c7bda,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7434,6 +7430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014475791037619028, guid: f9c35191fb68ee84a94729b4031c7bda,
+        type: 3}
+      propertyPath: m_Name
+      value: Engine_Fire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9c35191fb68ee84a94729b4031c7bda, type: 3}

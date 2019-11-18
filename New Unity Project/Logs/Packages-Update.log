@@ -39,3 +39,11 @@ The following packages were updated:
   com.unity.ide.rider from version 1.0.8 to 1.1.0
   com.unity.ide.vscode from version 1.0.7 to 1.1.2
   com.unity.postprocessing from version 2.1.4 to 2.1.6
+
+=== Mon Nov 18 20:35:33 2019
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.progrids@3.0.3-preview.4

@@ -193,55 +193,61 @@
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Formats.Fbx.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Fbx">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Formats.Fbx.Runtime">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -421,16 +427,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityFbxPrefab">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/lg_pi/Documents/GitHub/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Unity/SuperNovaRail/SuperNovaTCC/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -786,6 +792,16 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Parabox.Stl.csproj">
+      <Project>{03C2C256-31AA-6A4E-0826-5ACDACDF8762}</Project>
+      <Name>Parabox.Stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="Parabox.Stl.Editor.csproj">
+      <Project>{84792544-0A66-140A-D158-257BF7272531}</Project>
+      <Name>Parabox.Stl.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
