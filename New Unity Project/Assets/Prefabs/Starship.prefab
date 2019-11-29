@@ -1236,7 +1236,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080058515273967071}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1400,7 +1400,8 @@ MonoBehaviour:
   controlSpeed: 20
   xRange: 10
   yRange: 5
-  guns: []
+  guns:
+  - {fileID: 399332798138092720}
   positionPitchFactor: -5
   positionYawFactor: 2
   controlPitchFactor: -10
@@ -7209,7 +7210,7 @@ PrefabInstance:
     - target: {fileID: 399332797935988976, guid: 960af6ab959748e49862af1087d81480,
         type: 3}
       propertyPath: m_Name
-      value: Bullets
+      value: Main Gun
       objectReference: {fileID: 0}
     - target: {fileID: 399332797935988983, guid: 960af6ab959748e49862af1087d81480,
         type: 3}
@@ -7288,6 +7289,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 960af6ab959748e49862af1087d81480, type: 3}
+--- !u!1 &399332798138092720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 399332797935988976, guid: 960af6ab959748e49862af1087d81480,
+    type: 3}
+  m_PrefabInstance: {fileID: 202128448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &399332798138092727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 399332797935988983, guid: 960af6ab959748e49862af1087d81480,

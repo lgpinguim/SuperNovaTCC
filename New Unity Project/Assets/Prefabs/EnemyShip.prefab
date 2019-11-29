@@ -374,6 +374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyDeathFX: {fileID: 6688529929700404748, guid: 6823a769625fc15418dae0dd57a2f850,
     type: 3}
+  parent: {fileID: 0}
+  scorePerHit: 5
+  hit: 3
 --- !u!1 &3178975443086276981
 GameObject:
   m_ObjectHideFlags: 0
