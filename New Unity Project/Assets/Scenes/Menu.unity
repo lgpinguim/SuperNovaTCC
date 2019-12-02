@@ -462,7 +462,7 @@ Canvas:
   m_GameObject: {fileID: 381173075}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 255400238}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -575,10 +575,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 066a3d254573ac9499d4415ea9f08a14, type: 3}
+    m_Font: {fileID: 12800000, guid: 60388a750f2e45a48a70da873433cc68, type: 3}
     m_FontSize: 88
     m_FontStyle: 1
     m_BestFit: 1
@@ -914,6 +912,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: OPTIONS
       objectReference: {fileID: 0}
+    - target: {fileID: 3387377365550990387, guid: fbb4c4700cd071f4cbd829b1efd3e1f3,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 60388a750f2e45a48a70da873433cc68,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbb4c4700cd071f4cbd829b1efd3e1f3, type: 3}
 --- !u!1001 &1990201762
@@ -1068,6 +1072,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: QUIT
       objectReference: {fileID: 0}
+    - target: {fileID: 3387377365550990387, guid: fbb4c4700cd071f4cbd829b1efd3e1f3,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 60388a750f2e45a48a70da873433cc68,
+        type: 3}
     - target: {fileID: 1227418904229306822, guid: fbb4c4700cd071f4cbd829b1efd3e1f3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1227,5 +1237,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3387377365550990387, guid: fbb4c4700cd071f4cbd829b1efd3e1f3,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 60388a750f2e45a48a70da873433cc68,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbb4c4700cd071f4cbd829b1efd3e1f3, type: 3}

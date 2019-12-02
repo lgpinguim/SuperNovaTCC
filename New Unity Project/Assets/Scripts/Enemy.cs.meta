@@ -3,7 +3,10 @@ guid: a45f31e0bcd406c4faa116a54c9cf717
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - EnemyDeathFX: {fileID: 6688529929700404748, guid: 6823a769625fc15418dae0dd57a2f850,
+      type: 3}
+  - parent: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

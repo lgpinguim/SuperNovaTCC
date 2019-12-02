@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("General")]
     [Tooltip("In ms^-1")] [SerializeField] float controlSpeed = 20f;
+    [Tooltip("In ms^-1")] [SerializeField] float AimSpeed = 40f;
     [Tooltip("In ms^-1")] [SerializeField] float xRange = 5f;
     [Tooltip("In ms^-1")] [SerializeField] float yRange = 2f;
     [SerializeField] GameObject[] guns;
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -30f;
     [SerializeField] float controlRollFactor = -30;
 
+    [SerializeField] Transform target;
+
     bool isControlEnabled = true;
 
     float xThrow, yThrow;
@@ -31,10 +34,14 @@ public class PlayerController : MonoBehaviour
     {
         if (isControlEnabled)
         {
+            LookAtTarget();
             ProcessTranslation();
             ProcessRotation();
             ProcessFiring();
+         
         }
+
+
 
     }
 
@@ -46,6 +53,26 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    void LookAtTarget()
+    {
+        //Vector3 direction = target.position - transform.position;
+        // Quaternion rotation = Quaternion.LookRotation(direction);
+        // transform.rotation = Quaternion.Lerp(transform.rotation, rotation, AimSpeed * Time.deltaTime);
+
+        // Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        //float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+        //Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.back );
+        //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, AimSpeed * Time.deltaTime);
+
+       
+        //Ray MouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //float midpoint = (transform.position - Camera.main.transform.position).magnitude * 0.5f ;
+        transform.LookAt(target.position);
+
+        //transform.LookAt(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+
+        
+    }
 
     private void ProcessRotation()
     {
